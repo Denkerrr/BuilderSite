@@ -1,0 +1,12 @@
+<nav id="navigation">
+  <ul class="navList">
+    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"><li>Главная</li></a>
+    <a routerLink="/create" routerLinkActive="active"><li>Создать сайт</li></a>
+    <a routerLink="/instruction" routerLinkActive="active"><li>Инструкция</li></a>
+    <a routerLink="/contacts" routerLinkActive="active"><li>Контакты</li></a>
+  </ul>
+</nav>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

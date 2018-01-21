@@ -1,0 +1,29 @@
+#navigation{
+    width: 100%;
+    margin: 20px 0;
+    height: 50px;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+#navigation .navList{
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    padding-left: 0;
+}
+#navigation .navList a{
+    line-height: 50px;
+    display: inline-block;
+    text-decoration: none;
+    color: honeydew;
+    text-align: center;
+    padding: 0px 10px;
+    transition: 0.5s;
+}
+#navigation .navList a:not(:first-child){
+    margin-left: 5%;
+}
+#navigation .navList a:hover,
+.active{
+    background-color: mediumblue;
+}
